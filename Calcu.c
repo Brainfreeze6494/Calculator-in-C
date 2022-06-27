@@ -93,7 +93,7 @@ void multiplyer(int answer)
     int var,new;
     printf("Aditional number: ");
     scanf(" %d",&var);
-    new=answer-var;
+    new=answer*var;
     printf("the total is = %d\n",new);
     check(new);
 }
