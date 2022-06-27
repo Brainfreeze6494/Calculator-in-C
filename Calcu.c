@@ -65,24 +65,22 @@ void main()
 void check(int answer)   //checks if they need to do more of something
 {
     char more;
-    int ans;
-    ans=answer;
     scanf(" %c",&more);
     if (more=='+')
     {
-        adder(ans);
+        adder(answer);
     }
     else if (more=='-')
     {
-        subtracter(ans);
+        subtracter(answer);
     }
     else if (more=='*')
     {
-        multiplyer(ans); 
+        multiplyer(answer); 
     }
     else if (more=='/')
     {
-        divider(ans);
+        divider(answer);
     }
 }
 
